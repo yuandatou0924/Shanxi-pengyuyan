@@ -1,0 +1,474 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+
+.index-header {
+	width: 100%;
+	height: 0.9rem;
+	background: #1b2054;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+
+.index-name {
+	color: #FFFFFF;
+	font-size: 0.3rem;
+	display: block;
+}
+
+.index-pm {
+	width: 2.58rem;
+	height: 0.46rem;
+	background: #FFFFFF;
+	border-radius: 0.23rem;
+	text-align: center;
+	position: relative;
+}
+
+.index-pm input {
+	width: 100%;
+	height: 100%;
+	font-size: 0.2rem;
+	line-height: 0.46rem;
+	color: #ffffff;
+	border-radius: 0.23rem;
+	text-align: center;
+	display: block;
+	border: none;
+	outline: none;
+}
+
+.index-pm i {
+	display: block;
+	font-size: 0.27rem;
+	line-height: 0.27rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+	color: #b2b2b2;
+}
+
+input::-webkit-input-placeholder {
+	color: #b2b2b2;
+}
+
+.code {
+	width: 0.44rem;
+	height: 0.44rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: relative;
+}
+
+.code i {
+	display: block;
+	font-size: 0.27rem;
+	line-height: 0.27rem;
+	position: absolute;
+	left: 0.08rem;
+	top: 0.1rem;
+	color: #b2b2b2;
+}
+
+/* 轮播图开始 */
+.banner-box {
+	width: 7.04rem;
+	height: 2.8rem;
+	margin: 0.24rem;
+	position: relative;
+}
+
+.img-box {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+	background: blue;
+}
+
+.img-box img {
+	width: 100%;
+}
+
+.dots {
+	width: 0.67rem;
+	height: 0.1rem;
+	position: absolute;
+	left: 3.2rem;
+	bottom: 0.34rem;
+	background: #1B2054;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dot {
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #f6f6f8;
+	border-radius: 50%;
+}
+
+.dot-hover {
+	background: #000000;
+}
+
+/* 轮播图结束 */
+/* 商品分类开始 */
+.index-shop {
+	width: 100%;
+	height: 3.5rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+
+.shop-cate {
+	width: 6.54rem;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.cate-item {
+	width: 1.15rem;
+	height: 1.5rem;
+	float: left;
+	margin-right: 0.64rem;
+	margin-bottom: 0.25rem;
+}
+
+.item-last {
+	margin-right: 0;
+}
+
+.cate-img {
+	width: 100%;
+	height: 1.15rem;
+}
+
+.cate-img img {
+	width: 100%;
+}
+
+.cate-name {
+	display: block;
+	font-size: 0.24rem;
+	text-align: center;
+	padding-top: 0.15rem;
+}
+
+/* 商品分类结束 */
+/* 广告推荐开始 */
+.pic-box {
+	width: 100%;
+	height: 1.9rem;
+	margin-top: 0.92rem;
+}
+
+.pics {
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-img {
+	width: 3.5rem;
+	height: 100%;
+	position: relative;
+}
+
+.left-img img {
+	width: 100%;
+}
+
+.left-img p {
+	font-size: 0.24rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	display: block;
+	position: absolute;
+	bottom: 0.57rem;
+	left: 1.14rem;
+}
+
+.right-img {
+	width: 3.5rem;
+	height: 0.96rem;
+	float: left;
+	position: relative;
+}
+
+.right-img img {
+	width: 100%;
+	display: block;
+}
+
+.right-img p {
+	font-size: 0.24rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	display: block;
+	position: absolute;
+	bottom: 0.3rem;
+	left: 1.52rem;
+}
+
+.bot-img {
+	width: 1.75rem;
+	height: 0.96rem;
+	float: left;
+	position: relative;
+}
+
+.bot-img img {
+	width: 100%;
+	display: block;
+}
+
+.bot-img p {
+	font-size: 0.24rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	display: block;
+	position: absolute;
+	bottom: 0.3rem;
+	left: 0.6rem;
+}
+
+/* 广告推荐结束 */
+/* 推荐商家文字开始 */
+.font {
+	width: 100%;
+	height: 0.85rem;
+	margin-top: 1rem;
+}
+
+.font p {
+	font-size: 0.30rem;
+	font-weight: 800;
+	color: #30344f;
+	text-align: center;
+}
+
+.font .f2 {
+	font-size: 0.30rem;
+	font-weight: 300;
+	color: #30344f;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+
+/* 推荐商家文字结束 */
+/* 列表开始 */
+.big-list {
+	width: 100%;
+	height: 0.42rem;
+	margin-top: 0.34rem;
+}
+
+.list {
+	width: 7rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.list-box {
+	width: 1.3rem;
+	height: 100%;
+	background: #191e3c;
+	border-radius: 0.21rem;
+}
+
+.list-box p {
+	font-size: 0.2rem;
+	font-weight: 300;
+	color: #fff8f8;
+	text-align: center;
+	line-height: 0.42rem;
+}
+
+.list-box img {
+	width: 0.19rem;
+	height: 0.15rem;
+}
+
+/* 列表结束 */
+/* 商家列表开始 */
+.merchants {
+	width: 100%;
+	height: 6.38rem;
+	margin-top: 0.36rem;
+	background: #f5f5f6;
+	padding-top: 0.05rem;
+	box-sizing: border-box;
+}
+
+.merchants .mer-box {
+	width: 7rem;
+	height: 5.88rem;
+	margin: 0 0.24rem;
+	margin-top: 0.24rem;
+}
+
+.mer-list {
+	width: 100%;
+	height: 1.8rem;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.24rem;
+}
+
+.mer-pic {
+	width: 2.52rem;
+	height: 1.58rem;
+	margin: 0.12rem 0 0.12rem 0.12rem;
+}
+
+.mer-pic img {
+	width: 100%;
+}
+
+.mer-right {
+	width: 4.2rem;
+	height: 1.8rem;
+	margin-left: 0.24rem;
+}
+
+.good {
+	width: 4.12rem;
+	height: 0.58rem;
+	/* background: #191E3C; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.good-left {
+	width: 2.3rem;
+	height: 0.57rem;
+	border-bottom: 0.01rem dotted #818181;
+	font-size: 0.2rem;
+	font-weight: 600;
+	letter-spacing: 0.03rem;
+	color: #000000;
+	text-align: left;
+	line-height: 0.57rem;
+}
+
+.good-right {
+	width: 1.9rem;
+	height: 0.57rem;
+}
+
+.good-right img {
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+
+.mer-right .first {
+	display: block;
+	width: 100%;
+	margin-top: 0.14rem;
+	font-size: 0.2rem;
+	font-weight: 600;
+	letter-spacing: 0.03rem;
+	color: #808080;
+}
+
+.mer-right .s {
+	display: block;
+	width: 100%;
+	margin-top: 0.11rem;
+	font-size: 0.1rem;
+	font-weight: 600;
+	letter-spacing: 0.03rem;
+	color: #838383;
+}
+
+.mer-right .ss {
+	display: block;
+	width: 100%;
+	margin-top: 0.07rem;
+	font-size: 0.1rem;
+	font-weight: 600;
+	letter-spacing: 0.03rem;
+	color: #838383;
+}
+
+.mer-right .ss img {
+	width: 0.18rem;
+	height: 0.18rem;
+	margin-top: 0.12rem;
+}
+
+.ss .y {
+	width: 0.1rem;
+	height: 0.18rem;
+	margin-top: 0.12rem;
+}
+
+/* 商家列表结束 */
+/* tab开始 */
+.tab {
+	width: 100%;
+	height: 0.98rem;
+	background: #ffffff;
+	position:fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.tab-box {
+	width: 6rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.3rem;
+}
+
+.tabs {
+	width: 0.63rem;
+	height: 100%;
+	position: relative;
+}
+
+.tabs img {
+	width: 100%;
+	height: 0.52rem;
+	position: absolute;
+	top: 0;
+}
+
+.tabs p {
+	display: block;
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.1rem;
+	font-weight: 600;
+	color: #c0c2ca;
+	margin-left: 0.15rem;
+	position: absolute;
+	bottom: 0;
+}
+
+.tabs .s {
+	display: block;
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.1rem;
+	font-weight: 600;
+	color: #30344f;
+	margin-left: 0.15rem;
+	position: absolute;
+	bottom: 0;
+}
+
+/* tab结束 */
