@@ -1,0 +1,462 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+
+a {
+	text-decoration: none;
+}
+/* 搜索栏开始 */
+.search-box{
+	width: 100%;
+	height: 0.89rem;
+	display: flex;
+	justify-content: space-between;
+}
+.font-left{
+	width: 2.78rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-right: 0;
+}
+.font-left .le{
+	color: #dc5a8f;
+	font-size: 0.28rem;
+	font-weight: 900;
+	margin-left: 0.43rem;
+}
+.font-left span{
+	color: black;
+	font-size: 0.28rem;
+	letter-spacing: 0.05rem;
+	margin-left: 0.15rem;
+}
+.right{
+	width: 4.72rem;
+	height: 0.89rem;
+	display: flex;
+	align-items: center;
+}
+.right .sm{
+	width: 3.73rem;
+	height: 0.64rem;
+	background: white;
+	margin-left: 0.66rem;
+	display: flex;
+	justify-content: space-between;
+}
+.right .ssk{
+	width: 3rem;
+	height: 0.64rem;
+	background: #f7f5f6;
+	border-radius: 0.32rem;
+	display: flex;
+	flex-direction: row;
+}
+.right .ssk i{
+	color: #a09e9f;
+	display: block;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+}
+.right .ssk span{
+	font-size: 0.28rem;
+	color: #a09e9f;
+	display: block;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+	letter-spacing: 0.05rem;
+}
+.right .ewm{
+	height: 0.45rem;
+	width:0.45rem;
+	margin-top: 0.09rem;
+}
+.right .ewm i{
+	width: 0.45rem;
+	height: 0.45rem;
+	color: #636363;
+	display: block;
+	text-align: right;
+	margin-top: 0.06rem;
+}
+/* 搜索栏结束 */
+/*下方字体开始*/
+.Department-store{
+	width: 6.27rem;
+	height: 0.3rem;
+	margin-left: 0.24rem;
+	margin-top: 0.19rem;
+	display: flex;justify-content: space-between;
+	align-items: center;
+	font-size: 0.24rem;
+	color: #393939;
+	float: left;
+}
+.Department-store p{
+	color: #3e3c3d;
+	font-weight: 600;
+}
+.img-one{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+.img-one img{
+	width: 100%;
+	display: block;
+}
+.back{
+	width: 0.46rem;
+	height: 0.08rem;
+	background: indianred;
+	margin-top: 0.8rem;
+	margin-left: 0.24rem;
+	border-radius: 0.04rem;
+}
+.red{
+	width: 5.76rem;
+	height: 0.25rem;
+	margin-top: 0.28rem;
+	margin-left:0.86rem;
+	font-size: 0.24rem;
+	color: #afafaf;
+	display: flex;justify-content: space-between;
+	
+}
+.red-one{
+	width: 1.2rem;
+	height: 0.25rem;
+	display: flex;justify-content: space-between;
+	align-items: center;
+}
+.bot{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #e7e7e7;
+	border-radius: 50%;
+}
+/*下方字体结束*/
+/* 图标开始 */
+.icon-box{
+	width: 100%;
+	height:1.38rem;
+	margin-top: 0.26rem;
+	display: flex;
+	justify-content: space-around;
+}
+.icon-font{
+	width: 1.18rem;
+	height: 1.38rem;
+}
+.icon-font img{
+	width: 1.1rem;
+	height: 1rem;
+	display: block;
+}
+.icon-font2 img{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+}
+.icon-font2  p{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #585657;
+}
+.icon-font3 img{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+}
+.icon-font3  p{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #585657;
+}
+.icon-font5 img{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+}
+.icon-font5  p{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #585657;
+}
+.icon-font  p{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #585657;
+}
+/* 图标结束 */
+/* 图片推荐开始 */
+.pic-boxx{
+	width: 100%;
+	height: 1.53rem;
+	margin-top: 0.34rem;
+}
+.pic-box{
+	width: 6.58rem;
+	height: 1.53rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.pic-box img{
+	width: 100%;
+	border-radius: 0.2rem;
+}
+.pic-le{
+	width: 3.24rem;
+	height: 1.53rem;
+	border-radius: 0.2rem;
+	background: #636363;
+}
+.pic-ri{
+	width: 3.24rem;
+	height: 1.53rem;
+	border-radius: 0.2rem;
+	background: #636363;
+}
+/* 图片推荐结束 */
+/* 横条开始 */
+.ht-box{
+	width: 100%;
+	height: 0.1rem;
+	margin-top: 0.3rem;
+}
+.ht{
+	width: 6.6rem;
+	height: 0.05rem;
+	background: #f2f2f2;
+	margin: 0 auto;
+	border-radius: 0.025rem;
+}
+/* 横条结束 */
+/* 食物分类开始 */
+.fruit-box{
+	width:100%;
+	height: 2.4rem;
+	margin-top: 0.3rem;
+}
+.fruit1{
+	width: 6.56rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fruit2{
+	width: 6.56rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 0.1rem;
+}
+.preson{
+	width: 0.77rem;
+	height: 1.08rem;
+}
+.preson .picture{
+	width: 100%;
+	height: 0.79rem;
+}
+.picture img{
+	width: 100%;
+	display:block;
+}
+.preson .font{
+	width: 100%;
+	height: 0.29rem;
+	font-size: 0.24rem;
+	letter-spacing: 0.05rem;
+	text-align: center;
+	font-weight: 600;
+	color: #434343;
+}
+.preson2{
+	width: 0.77rem;
+	height: 1.08rem;
+	margin-right: 0.67rem;
+}
+.preson2 .picture2{
+	width: 100%;
+	height: 0.79rem;
+}
+.picture2 img{
+	width: 100%;
+	display:block;
+}
+.preson2 .font2{
+	width: 100%;
+	height: 0.29rem;
+	font-size: 0.24rem;
+	letter-spacing: 0.05rem;
+	text-align: center;
+	font-weight: 600;
+	color: #434343;
+}
+/* 食物分类结束 */
+/* 安心水果开始 */
+.fruit{
+	width: 7.2rem;
+	height: 11.76rem;
+	background: #f5f7f6;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+}
+.p-top{
+	width: 7.2rem;
+	height: 1.72rem;
+	/* background: #000000; */
+	border-radius: 0.2rem 0.2rem 0 0;
+}
+.p-top img{
+	display: block;
+	width: 7.2rem;
+}
+.p-box1{
+	width: 100%;
+	height: 5.5rem;
+	/* background: #393939; */
+	/* overflow: hidden; */
+}
+.p-box1 .box2{
+	width: 100%;
+	/* height: 4.97rem; */
+	/* background: red; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box2 .left{/* 两个开始 */
+	width:3.37rem;
+	height:100%;
+	background:#FFFFFF;
+	border-radius: 0.2rem;
+	position: relative;
+}
+.left .p{
+	width: 3.37rem;
+	height:5rem;
+}
+
+.left .p img{
+	display: block;
+	width: 100%;
+	height: 3.05rem;
+}
+.p p{
+	display: block;
+	margin-left: 0.16rem;
+	font-size: 0.24rem;
+	overflow:hidden;/* （超出部分隐藏） */
+  	white-space:nowrap;/* （文字不换行，只有一行文字） */
+ 	text-overflow:ellipsis;/* （文本超出部分省略号表示）] */
+	color: #413f40;
+	font-weight: 600;
+}
+.p .two{
+	display: block;
+	margin-left: 0.16rem;
+	font-size: 0.24rem;
+	color: #9c9c9c;
+	font-weight: 600;
+}
+.p .money{
+	width: 1.75rem;
+	height: 0.56rem;
+	/* background: #393939; */
+	position: absolute;
+	/* left: 0.16rem; */
+	bottom: 0.33rem;
+}
+/* .iconfont .icon-qipao{
+	font-size: 0.45rem;
+	position: absolute;
+	left:1.2rem;
+	top: 0.5rem;
+	color: #000000;
+} */
+.money p{
+	color: #4b494a;
+	font-size: 0.24rem;
+	font-weight: 500;
+}
+.money .yh{
+	font-size: 0.2rem;
+	letter-spacing: 0.02rem;
+	display: block;
+	position: absolute;
+	left:1.2rem;
+	top: 0.3rem;
+	color:#b0b0b0;
+}
+.money .er{
+	color: #d981a7;
+	font-size: 0.3rem;
+	font-weight: 500;
+	display: block;
+}
+.shop{
+	width: 0.62rem;
+	height: 0.62rem;
+	border-radius: 50%;
+	background: #ff4791;
+	position: absolute;
+	right:0.2rem;
+	top: 4.1rem;
+}
+.p i{
+	color: #fffeff;
+	display: block;
+	position: absolute;
+	right:0.35rem;
+	top: 4.25rem;
+}
+
+/* 安心水果结束 */
+/*底部固定开始*/
+.gu{
+	width: 100%;
+	height: 1rem;
+	background: white;
+	/* box-shadow: 0.02rem 0.02rem 0.1rem rgba(0,0,0,0.3); */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+}
+.gu1{
+	width: 1rem;
+	height: 100%;
+	/*background: yellow;*/
+	
+}
+.gu1 i{
+	display: block;
+	font-size:0.5rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #ff44aa;
+}
+#boo{
+	color: #9e9e9e;
+}
+.gu1 p{
+	font-size: 0.2rem;
+	text-align: center;
+	position: relative;
+	bottom: 0.15rem;
+}
+
+/*底部固定结束*/
