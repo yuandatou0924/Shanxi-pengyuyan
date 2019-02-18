@@ -1,0 +1,51 @@
+@import "xin.css";
+@import "yin.scss";
+$color:#b0b0b0;
+$width:600px;
+$xian:1px;
+$num:15;
+$r:20px;
+
+.box{
+  width: $width;
+  height: $width;
+  background: $color;
+  @include postioncenter;
+  >.xian{
+    width: $width - $r*2;
+    height: $xian;
+    background: black;
+    position: absolute;
+    left: $r;
+  }
+  >.shu{
+    width: $xian;
+    height: $width - $r*2;
+    background: black;
+    position: absolute;
+    top: $r;
+  }
+  >.chess {
+    width: $r*2;
+    height: $r*2;
+    @include yuan;
+    position: absolute;
+  }
+  .black{
+    background: black;
+  }
+  .white{
+    background: #FFFFFF;
+  }
+  @for $i from 1 through $num{
+    > .xian:nth-child(#{$i}){
+      top: ($i*2-1)*$r;
+    }
+  }
+  @for $i from 1 through $num{
+    > .shu:nth-of-type(#{$i}){
+      left:  ($i*2-1)*$r;
+    }
+  }
+}
+
